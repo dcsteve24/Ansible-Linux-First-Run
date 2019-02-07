@@ -9,6 +9,7 @@ The main play in /etc/ansible/playbooks/ must have gather_facts:false for this t
 
 You can run this with other roles just fine, as long as this role is specified first (so it installs python before going to the commands that use python):
 
+```
 ---
 - hosts: all
   remote_user: your_user
@@ -18,6 +19,7 @@ You can run this with other roles just fine, as long as this role is specified f
     - first_run
     - second role
     - third role
+```
 
 Author Information
 ------------------
