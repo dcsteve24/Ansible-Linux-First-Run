@@ -1,4 +1,4 @@
-# Ansible-Linux-First-Run
+# Ansible-Ubuntu-First-Run
 Python is required to run most ansible commands. This role will use a raw command to install python if you have a newly installed server.
 
 Role Name
